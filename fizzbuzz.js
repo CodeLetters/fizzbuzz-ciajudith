@@ -1,5 +1,4 @@
-module.exports = function () {
-  function fizzbuzz() {
+function fizzBuzz() {
   const result = [];
 
   for (let number = 1; number <= 100; number++) {
@@ -10,7 +9,4 @@ module.exports = function () {
   return result;
 }
 
-console.log(fizzbuzz());
-
-
-};
+module.exports = fizzBuzz; 
